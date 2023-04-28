@@ -1,0 +1,310 @@
+body{
+    background: #002060;
+    margin: 2px 27.500px;
+    box-shadow: -10px 0px 10px -10px white, 10px 0px 10px -10px white;
+    padding: 10px 20px auto 20px;
+    font-family: sans-serif,roboto;
+}
+
+.navigation-container {
+    background-color: #4c96f9;
+}
+
+.navigation-container a {
+    color: white;
+    margin: 0;
+}
+.navigation-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink:inherit;
+    padding: 0px 20px;
+    
+}
+
+.navigation-container ul li {
+    list-style: none;
+    text-decoration: none;
+}
+#tamil
+{
+    padding:1px 20px;
+    background:#c62828!important;
+    color:#FFF!important;
+}
+  
+.logo-container
+{
+    display: flex;
+    
+}
+div
+{
+    background-color: white;
+    
+}
+img
+{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    
+}
+#statue
+{
+    width: 25%;
+    height: auto;
+}
+#logo
+{
+    width: 75%;
+    max-width: 100%;
+    height: auto;
+}
+li
+{
+    display: inline-block;
+    
+}
+.login-container
+{
+
+    padding: 10px;
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    margin-top: 0%;
+
+}
+#login-box
+{
+    border-bottom:1px solid #d32f2f;
+    background: transparent;
+    border-bottom: 1px solid #d32f2f;
+    color: #002060;
+    text-transform: uppercase;
+    padding: 0px 5px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "roboto",sans-serif;
+    margin-top: 0;
+}
+.form-container
+{
+    background-color:  #e1f5fe;
+    padding: 20px 10px;
+    border-radius: 10px;
+    width: 105%;
+    margin: 0%;
+    margin-left: -22px;
+    
+    
+}
+
+label
+{
+    font-size: 0.9em;
+}
+input
+{
+    width: 92%;
+    
+    height: 20px;
+    display:flex;
+    
+}
+form
+{
+    padding:0px 20px;
+}
+button
+{
+    background-color: #d32f2f;
+    margin: auto;
+    display: block;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: "roboto",sans-serif;
+    text-align: center;
+    border: transparent;
+    border-radius: 3px;
+    padding: 10px;
+    width: 70px;
+    margin-top: 2%;
+    box-shadow: 0px 05px 10px 0px rgba(0,0,0,0.5);
+}
+.divider {
+    height: 1px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+.newuser-container
+{
+    display: flex;
+    justify-content: center;
+    color: #039be5;
+    
+    
+}
+#new
+{
+    color: #039be5;
+    text-decoration: none;
+    border-right: 1px solid darkblue;
+    padding: 0px 20px 0px 0px;  
+
+}
+#forgot
+{
+    padding: 8px 0px 0px 20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #039be5;
+
+}
+i{
+    display: flex;
+    padding: 2px;
+}
+#tamilnaduarasu-text
+{
+    display: block;
+    margin: auto;
+    animation: blinkingText 1.2s infinite;
+    word-break: break-word;
+    line-height: 20px;
+    width: 252.406px;
+    height: 62.5;
+    height: fit-content;
+    text-decoration: underline!important;
+}
+@keyframes blinkingText {
+    0% {
+        color: #002060;
+    }
+    49% {
+        color: #002060;
+    }
+    60% {
+        color: #42a5f5;
+    }
+    99% {
+        color: #42a5f5;
+    }
+    100% {
+        color: #002060;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .login-container
+    {
+        width:200px;
+        padding: 0.75em;
+
+    }
+    input
+    {
+        width: 82%;
+        height: 20px;
+        display:flex;
+        justify-content: center;
+    
+    }
+    label
+    {
+        font-size: 0.7em;
+    }
+    body
+    {
+        background: #002060;
+        margin: 5px 15px auto 15px;
+        box-shadow: -5px 5px 15px -5px white, 10px 0px 10px -10px white;
+        padding: 10px 20px auto 20px;
+        font-family: sans-serif,roboto;
+    }
+    button
+    {
+        background-color: #d32f2f;
+        margin: auto;
+        display: block;
+        color: #FFF;
+        font-size: 8px;
+        font-weight: bold;
+        line-height: 1.5;
+        font-family: "roboto",sans-serif;
+        text-align: center;
+        border: transparent;
+        border-radius: 3px;
+        padding: 5px;
+        width: 50px;
+        margin-top: 2%;
+        box-shadow: 0px 05px 10px 0px rgba(0,0,0,0.5);
+    }
+    label
+    {
+        font-size: 0.5em;
+    }
+    #new
+    {
+        border-right: 1px solid darkblue;
+        padding: 0px 20px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .newuser-container
+    {
+        display: flex;
+        justify-content: center;
+        font-size: small;
+    }
+    #tamilnaduarasu-text
+    {
+        font-size: small;
+    }
+    .navigation-container {
+        background-color: #4c96f9;
+        width: 92.4vw;
+        height: auto;
+    }
+    .navigation-container a {
+        color: white;
+        margin: 0;
+        font-size: small;
+    }
+    .navigation-container ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-shrink:inherit;
+        font-size: small;
+        gap: 0px;
+        
+    }
+    
+    .navigation-container ul li {
+        list-style: none;
+        text-decoration: none;
+        font-size: small;
+        width: auto;
+    }
+    #tamil
+    {
+        padding:1px 20px;
+        background:#c62828!important;
+        color:#FFF!important;
+    }
+
+
+  }

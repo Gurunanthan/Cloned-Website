@@ -291,6 +291,7 @@ i{
         width: fit-content;
         height: auto;
         font-size: 2px;
+
     }
     .navigation-container a {
         color: white;
@@ -305,6 +306,7 @@ i{
         flex-shrink:inherit;
         font-size: smaller;
         gap: 0px;
+        padding: 0px 20px;
         
     }
     
@@ -329,6 +331,7 @@ i{
         width: max-content;
         display: block;
         margin: auto;
+        margin-top: 5%;
     }
     div
     {

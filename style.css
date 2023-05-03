@@ -232,6 +232,7 @@ i{
         box-shadow: -5px 5px 15px -5px white, 10px 0px 10px -10px white;
         padding: 10px 20px auto 20px;
         font-family: sans-serif,roboto;
+        
     }
     button
     {
@@ -273,6 +274,7 @@ i{
     #tamilnaduarasu-text
     {
         font-size: small;
+        
     }
     .navigation-container {
         background-color: #4c96f9;
@@ -317,6 +319,15 @@ i{
         width: max-content;
         display: block;
         margin: auto;
+    }
+    div
+    {
+        background-color: white
+    }
+    .second-div
+    {
+        width: 100px;
+        height: 200px;
     }
 
 

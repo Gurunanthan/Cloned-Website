@@ -204,6 +204,11 @@ i{
         color: #002060;
     }
 }
+.second-div
+    {
+
+        height:100px;
+    }
 
 @media only screen and (max-width: 600px) {
     .login-container
@@ -327,7 +332,7 @@ i{
     .second-div
     {
         width: 100px;
-        height:360px;
+        height:300px;
     }
 
 

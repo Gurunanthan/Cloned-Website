@@ -21,7 +21,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     flex-shrink:inherit;
-    padding: 0px 20px;
+    padding: 10px 20px;
     
 }
 
@@ -80,7 +80,7 @@ li
     width: 30%;
     height: 20%;
     margin: auto;
-    margin-top: 0%;
+    margin-top: 5%;
     
     
 }
@@ -104,7 +104,8 @@ li
     padding: 20px 10px;
     border-radius: 10px;
     display: block;
-    width: 95.5%;   
+    width: 95.5%;  
+    margin-top: 3%; 
 
 }
 
@@ -336,7 +337,7 @@ i{
     .second-div
     {
         width: 100px;
-        height:300px;
+        height:360px;
     }
 
 

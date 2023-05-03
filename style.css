@@ -43,9 +43,11 @@ body{
     margin: auto;
     
 }
-div
+.main-container
 {
     background-color: white;
+    
+    
     
 }
 img
@@ -215,6 +217,8 @@ i{
     {
         width:200px;
         padding: 0.75em;
+        margin-top: 30%;
+
         
 
     }
@@ -332,7 +336,7 @@ i{
     .second-div
     {
         width: 100px;
-        height:360px;
+        height:300px;
     }
 
 

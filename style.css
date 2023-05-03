@@ -228,7 +228,7 @@ i{
     body
     {
         background: #002060;
-        margin: 5px 15px auto 15px;
+        margin: auto;
         box-shadow: -5px 5px 15px -5px white, 10px 0px 10px -10px white;
         padding: 10px 20px auto 20px;
         font-family: sans-serif,roboto;
@@ -322,12 +322,12 @@ i{
     }
     div
     {
-        background-color: white
+        background-color: white;
     }
     .second-div
     {
         width: 100px;
-        height: 200px;
+        height:300px;
     }
 
 

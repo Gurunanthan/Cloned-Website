@@ -305,6 +305,7 @@ i{
         padding:1px 20px;
         background:#c62828!important;
         color:#FFF!important;
+        visiblity: hidden;
     }
     .form-container
     {

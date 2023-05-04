@@ -21,14 +21,14 @@ body{
     align-items: center;
     flex-wrap: wrap;
     flex-shrink:inherit;
-    padding: 10px 20px;
+    padding: 0px 20px;
     
 }
 
 .navigation-container ul li {
     list-style: none;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
 }
 #tamil
 {
@@ -288,7 +288,7 @@ i{
     }
     .navigation-container {
         background-color: #4c96f9;
-        width: fit-content;
+        
         height: auto;
         font-size: 2px;
 

@@ -164,6 +164,7 @@ button
     text-decoration: none;
     border-right: 1px solid darkblue;
     padding: 0px 20px 0px 0px;  
+    color: #002060;
     
 }
 #forgot
@@ -171,6 +172,8 @@ button
     padding: 8px 0px 0px 20px;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    color: #002060;
     text-decoration: none;
     
 }

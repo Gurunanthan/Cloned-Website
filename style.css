@@ -112,7 +112,7 @@ li
 label
 {
     font-size: 17px;
-    margin-left:8%;
+    margin-left:2%;
 }
 input
 {
@@ -154,7 +154,7 @@ button
 {
     display: flex;
     justify-content: center;
-    color: #039be5;
+    color: #002060;
     
     
 }
@@ -235,7 +235,7 @@ i{
     label
     {
         font-size: 0.9em;
-        margin-left:2%;
+        margin-left:8%;
     }
     body
     {

@@ -160,7 +160,7 @@ button
 }
 #new
 {
-    color: #039be5;
+ 
     text-decoration: none;
     border-right: 1px solid darkblue;
     padding: 0px 20px 0px 0px;  
@@ -172,7 +172,6 @@ button
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #039be5;
     
 }
 i{
